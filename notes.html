@@ -1,0 +1,101 @@
+<html lang="en" class="scroll-smooth scroll-pt-40">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Hrishikesh H Pillai</title>
+</head>
+<body class="">
+    <!--intro section-->
+    <div class="dark:bg-[#101521]">
+        <!--navbar-->
+        <nav class=" w-full fixed top-0 bg-white dark:bg-[#101521] pt-5 z-20">
+            <div class="container mx-auto py-5 flex sm:justify-between items-center">
+                <span class="text-xl font-semibold dark:text-white md:pl-10 sm:pl-7">Hrishikesh H Pillai</span>
+                <ul class="hidden lg:flex space-x-14 md:pl-40 dark:text-white">
+                    <li class="hover:text-gray-500 ">
+                        <a href="./index.html#">Home</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="./index.html#about">About</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="./index.html#talks">Talks</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="./index.html#publications">Publications</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="./index.html#notes">Notes</a>
+                    </li>
+                </ul>
+                <img id="mode" src="./images/mode-moon.png" alt="modebutton" class="hidden lg:block w-8 cursor-pointer">
+                <div id="hamburger" class="space-y-1 lg:hidden cursor-pointer z-20 md:pl-96 sm:pl-32">
+                    <div class="w-5 h-0.5 bg-black"></div>
+                    <div class="w-5 h-0.5 bg-black"></div>
+                    <div class="w-5 h-0.5 bg-black"></div>
+                </div>
+                <div>
+                    <ul id="menu" class="hidden bg-white absolute left-0 top-0 w-full p-10 rounded-b-2xl space-y-10 text-left shadow-md">
+                        <li>
+                            <a id="hLink" href="./index.html#">Home 🏡</a>
+                        </li>
+                        <li>
+                            <a id="hLink" href="./index.html#about">About 👋</a>
+                        </li>
+                        <li>
+                            <a id="hLink" href="./index.html#talks">Talks 🎙️</a>
+                        </li>
+                        <li>
+                            <a id="hLink" href="./index.html#publications">Publications 📑</a>
+                        </li>
+                        <li>
+                            <a id="hLink" href="./index.html#notes">Notes 📝</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--intro content-->
+        <!--hello text-->
+        <div class= "pt-32 pb-10 px-20 text-[1.2rem] md:text-3xl lg:pt-44 font-bold dark:text-white">
+            <h1>My Notes / Blog Posts 📝</h1>
+        </div>
+        <!--small about text-->
+
+        <div class="px-20 text-sm w-ful md:px-32 dark:text-white">
+            <span class="w-full">
+               These are a few of my notes, and blog posts mostly on deep learning, tech, robotics, control, IoT, productivity and books.
+            </span>
+        </div>
+    </div>
+
+    <!--Notes section-->
+    <!--block-->
+    <div class="container mx-auto mt-20">
+        <div class="flex flex-wrap">
+            <div class="shadow-md rounded-lg w-full p-10">
+                <div class="pb-3">
+                    <span>June 8, 2024</span>
+                </div>
+                <div class="pb-2 font-bold text-cyan-900 cursor-pointer">
+                    <span><a href="./notes/handsoniot.html">A quick hands on intro to Internet of Things</a></span>
+                </div>
+                <div>
+                    <span>
+                        A quick theory and lots of practice, lets learn how we can develop simple IoT projects in out spare time. Dive into a variety of hardware development boards, and software platforms, and start building more complex projects 💡.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="absolute w-full bottom-0 bg-white pt-10">
+        <div class="container mx-auto py-5 flex justify-center items-center sm:text-sm">
+            <span>© 2024 Hrishikesh H Pillai. Made with ❤️ at HrishiLabs</span>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
